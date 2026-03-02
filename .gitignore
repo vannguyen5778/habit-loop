@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+.next/
+
+# Database files
+*.db
+*.db-journal
+
+# Service worker (generated at build time)
+web/public/sw.js
+web/public/sw.js.map
+web/public/swe-worker-*.js
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Debug
+npm-debug.log*
