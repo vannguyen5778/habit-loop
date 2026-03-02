@@ -1,4 +1,4 @@
-# Offline Habit Loop
+# Habit Loop
 
 A Progressive Web App (PWA) habit tracker built with an offline-first architecture. All interactions are instant — data is stored locally in IndexedDB and synced to the backend when online.
 
@@ -6,7 +6,7 @@ A Progressive Web App (PWA) habit tracker built with an offline-first architectu
 
 | Layer | Technology |
 |-------|-----------|
-| Frontend | Next.js 16 (App Router), React 19, TypeScript |
+| Frontend | Next.js 16, TypeScript |
 | UI | Tailwind CSS, shadcn/ui (Radix UI primitives) |
 | Offline Data | Dexie.js (IndexedDB), TanStack Query v5 |
 | Backend | NestJS 11, Prisma 6, SQLite |
@@ -19,7 +19,6 @@ A Progressive Web App (PWA) habit tracker built with an offline-first architectu
 - **Offline-first** — works without internet, syncs automatically when back online
 - **Dark / Light mode** — toggle in the header, persists across sessions
 - **GitHub-style heatmap** — 20-week activity grid showing completion intensity
-- **Confetti celebration** — fires when all habits are completed for the day
 - **Streak tracking** — consecutive-day streaks displayed per habit
 - **Sync status indicator** — Online (green), Offline (amber), Syncing (blue) badge
 - **PWA installable** — add to home screen on mobile for a native app feel
